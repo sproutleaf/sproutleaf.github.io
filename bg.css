@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'diatype';
+  src: url('diatype.otf') format('opentype');
+}
+
+body {
+  font-family: 'diatype', 'AUTHENTICSans', 'Arial', sans-serif;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: none;
+}

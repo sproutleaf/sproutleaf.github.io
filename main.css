@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'diatype';
+  src: url('diatype.otf') format('opentype');
+}
+
+body {
+  font-family: 'diatype', 'AUTHENTICSans', 'Arial', sans-serif;
+  font-size: 14pt;
+  line-height: 1.1em;
+  padding: 2rem;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #1a5939;
+  color: #FFF;
+}
+
+
+span.prompt {
+  color: #298C59;
+}
+
+.container {
+  max-width: 32rem;
+}
+
+.transition {
+  color: #00a651;
+}
+
+.transition:hover {
+  background-color: black;
+}
+
+span.arrow {
+  font-size: 10pt;
+}
+
+.colophon {
+  position: relative;
+  bottom: 0;
+  padding-top: 10%;
+  line-height: 1em;
+  font-size: 18pt;
+}
+
+.work {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.1em;
+  font-size: 14pt;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12pt;
+  }
+
+  span.arrow {
+    font-size: 8pt;
+  }
+}
